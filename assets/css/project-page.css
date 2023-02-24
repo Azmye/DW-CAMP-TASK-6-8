@@ -61,6 +61,7 @@ body {
   font-size: 14px;
   color: #000;
   margin: 0;
+  word-wrap: initial;
 }
 
 #project-lists .project-card .icons ul {
