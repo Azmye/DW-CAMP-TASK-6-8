@@ -1,9 +1,9 @@
-let datas = [];
+const datas = [];
 const form = document.querySelector('form');
 const projectLists = document.querySelector('#projectLists');
 
 const getData = (form) => {
-  let data = {
+  const data = {
     projectName: form.name.value,
     startDate: form.startDate.value,
     endDate: form.endDate.value,

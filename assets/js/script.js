@@ -13,9 +13,7 @@ const getData = (form) => {
 };
 
 const mailTo = (emailReceiver, data) => {
-  const a = document.createElement('a');
-  a.href = `mailto:${emailReceiver}?subject=${data.subject}&body=Hello my name is ${data.name}, ${data.clientMessage}. you can contact me here ${data.phoneNumber}.`;
-  a.click();
+  window.location.href = `mailto:${emailReceiver}?subject=${data.subject}&body=Hello my name is ${data.name}, ${data.clientMessage}. you can contact me here ${data.phoneNumber}.`;
 };
 
 form.addEventListener('submit', (e) => {

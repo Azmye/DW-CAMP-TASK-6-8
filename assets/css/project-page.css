@@ -179,6 +179,7 @@ textarea {
 }
 
 #project-form .container .imageUploadInput input[type='file']::file-selector-button {
+  content: 'Choose';
   background-color: #eee;
   font-size: 16px;
   padding: 10px;
