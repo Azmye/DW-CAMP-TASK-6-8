@@ -26,11 +26,11 @@ nav .container {
   width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-.nav-left ul {
+.nav-menu-left {
   display: flex;
   list-style: none;
   font-size: 16px;
@@ -38,15 +38,25 @@ nav .container {
   padding-left: 0;
 }
 
-.nav-left li {
+.nav-brand {
+  width: 5%;
+}
+
+.nav-menu {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu-left li {
   margin-right: 16px;
 }
 
-.nav-left li:hover {
+.nav-menu-left li:hover {
   color: #ff4500;
 }
 
-.nav-right a {
+.nav-menu-right a {
   background-color: #000000e6;
   color: #fff;
   padding: 6px 18px;
@@ -55,8 +65,46 @@ nav .container {
   font-weight: 500;
 }
 
-.nav-right a:hover {
+.nav-menu-right a:hover {
   color: #ff4500;
+}
+
+.hamburger {
+  display: none;
+  border: 0;
+  padding: 1px;
+  text-align: center;
+}
+
+/* .hide-menu {
+  display: none;
+} */
+
+.hamburger-nav {
+  display: none;
+}
+
+.hamburger-nav-menu {
+  background-color: #bbb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+  margin: 0;
+}
+
+.hamburger-nav-menu li {
+  margin-bottom: 15px;
+}
+
+.hamburger-nav-menu li:nth-last-child(1) {
+  background-color: #000000e6;
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 /* About Section */
@@ -198,6 +246,15 @@ nav .container {
     padding: 0 15px;
   }
 
+  .hamburger {
+    display: block;
+    margin: 16px 0;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
   #about {
     padding: 20px;
   }
@@ -205,7 +262,7 @@ nav .container {
   #about .container {
     width: 100%;
     padding: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   #about .container {

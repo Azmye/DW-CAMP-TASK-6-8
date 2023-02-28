@@ -30,7 +30,7 @@ const generateCardTemplate = (data) => {
   <div class="body">
     <h3>${data.projectName} - ${new Date(data.endDate).getFullYear()}</h3>
     <p>Duration : ${data.duration} </p>
-    <p>${data.description.length < 120 ? data.description.slice(0, 120) : `${data.description.slice(0, 120)}...`}</p>
+    <p>${data.description.length < 120 ? data.description.slice(0, 120) : window.innerWidth <= 768 ? `${data.description.slice(0, 60)}...` : `${data.description.slice(0, 120)}...`}</p>
     <div class="icons">
       <ul>
         ${data.icons.nextJs ? '<li><i class="cib-next-js"></i></li>' : ''}
