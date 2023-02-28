@@ -141,7 +141,7 @@ textarea {
 }
 
 #project-form .container .date-input div {
-  flex: 50%;
+  width: 50%;
 }
 
 #project-form .container input[type='date'] {
