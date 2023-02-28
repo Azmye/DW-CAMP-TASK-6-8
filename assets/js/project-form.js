@@ -23,6 +23,7 @@ const getData = (form) => {
 
 const generateCardTemplate = (data) => {
   const projectCard = `<div class="project-card">
+  <a href="project-details.html">
   <div class="head">
     <img src="${data.image}" alt="" style="width: 100%" />
   </div>
@@ -44,6 +45,7 @@ const generateCardTemplate = (data) => {
       <button>delete</button>
     </div>
   </div>
+  </a>
 </div>`;
 
   return projectCard;

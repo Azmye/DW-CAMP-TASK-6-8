@@ -57,3 +57,16 @@ select:focus {
   border-radius: 25px;
   border: none;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 512px) {
+  #contact {
+    padding: 0 15px;
+    padding-top: 20px;
+  }
+
+  #contact form {
+    width: 100%;
+  }
+}
