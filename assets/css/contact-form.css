@@ -8,7 +8,7 @@
 }
 
 #contact form {
-  width: 420px;
+  width: 600px;
 }
 
 #contact form input,
@@ -60,6 +60,16 @@ select:focus {
 
 /* Media Queries */
 
+@media only screen and (max-width: 768px) {
+  #contact {
+    padding: 0 15px;
+    padding-top: 20px;
+  }
+
+  #contact form {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 512px) {
   #contact {
     padding: 0 15px;
