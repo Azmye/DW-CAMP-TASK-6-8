@@ -6,9 +6,9 @@ const testimonialUser1 = new Testimonials(
 );
 
 const testimonialUser2 = new Testimonials(
-  'Noctis Caelum',
-  'Kings of Lucis! Come to me! This time you can Rest In Peace. Close your eyes, forevermore.',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jLAKxCnJ_wS_Hz_zs8TiwotFEFl0qbpGpg&usqp=CAU'
+  'Mr. Lambert',
+  'I did it for me. I liked it. I was good at it. And, I was really…I was alive.',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ngR5IjpqcYm-eaf-HYOmkamoUZiQ_ajFw2ywNbyt_0Qk1xi3EJRSPATuu-r4__JYlsc&usqp=CAU'
 );
 
 const testimonialUser3 = new TestiWithRating(
