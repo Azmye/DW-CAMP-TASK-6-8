@@ -82,6 +82,11 @@
   color: #fff;
   padding: 6px 14px;
   border: none;
+  cursor: pointer;
+}
+
+.btn-filters button:hover > i {
+  color: yellow;
 }
 
 @media only screen and (max-width: 900px) {
